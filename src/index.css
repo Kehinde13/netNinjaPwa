@@ -1,0 +1,51 @@
+:root {
+  --primary: #FFE902;
+  --secondary: #FFE1C4;
+  --title: #FF8816;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary) ;
+  padding: 5px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+ h3 {
+  margin-top: 6px;
+  color: var(--title);
+  font-weight: bold;
+}
+
+ul h3 {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.contact {
+  display: flex;
+}
+
+/* NEW RECIPE */
+
+.newRecipe {
+  padding: 10px
+}
+
+.newRecipe h4, h6 {
+  margin: 20px 0 10px 0;
+}
