@@ -21,6 +21,7 @@ import {
 } from "react-router-dom";
 import Contact from './components/Contact';
 import About from './components/About';
+import FallbackPage from './components/FallbackPage';
 
 
 function App() {
@@ -108,7 +109,10 @@ function App() {
 
           <Route path='/About' element={<About />} />
 
+          <Route path='/FallbackPage' element={<FallbackPage />} />
+
           <Route path="*" element={<Navigate to="/" replace />} />
+
         </Routes>
 
 

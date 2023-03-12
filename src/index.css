@@ -40,12 +40,27 @@ ul a {
   display: flex;
 }
 
-/* NEW RECIPE */
+/* CARDS */
 
-.newRecipe {
-  padding: 10px
+.card {
+  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
-.newRecipe h4, h6 {
-  margin: 20px 0 10px 0;
+
+@media screen and (min-width: 480px) {
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .card {
+    width: 25%;
+  }
+
 }
+
+
+
+
